@@ -2,7 +2,7 @@
 Perl Catalyst basic template
 =========================
 
-This example shows how to use Anychart library with the Python programming language, Django web framework and MySQL database.
+This example shows how to use Anychart library with the Perl programming language, Catalyst web framework and MySQL database.
 
 ## Running
 
@@ -56,25 +56,25 @@ perl-catalyst-mysql-template/
     lib/
         PerlCatalystMysqlTemplate/
             Controller/
-                Root.pm
+                Root.pm                         # main controller
             Model/
-                DB.pm
+                DB.pm                           # MySQL settings
             Schema/
                 Result/
-                    Fruit.pm
+                    Fruit.pm                    # database model
             View/
-                HTML.pm
-            Schema.pm
-        PerlCatalystMysqlTemplate.pm
+                HTML.pm                         # template engine settings
+            Schema.pm                           # database schema settings
+        PerlCatalystMysqlTemplate.pm            # main project settings
     root/
         root/
-            index.tt
+            index.tt                            # HTML template
         static/
             css/
-                style.css
+                style.css                       # CSS style
             images/
             favicon.ico
-    script/
+    script/                                     # Perl useful scripts
         perlcatalystmysqltemplate_cgi.pl
         perlcatalystmysqltemplate_create.pl
         perlcatalystmysqltemplate_fastcgi.pl
@@ -95,7 +95,7 @@ More about Catalyst folder structure you can read [here](http://search.cpan.org/
 ## Technologies
 Language - [Perl](https://www.perl.org/)<br />
 Web framework - [Catalyst](http://www.catalystframework.org/)<br />
-Template Engine - [http://template-toolkit.org/](http://template-toolkit.org/)<br />
+Template Engine - [Template Toolkit](http://template-toolkit.org/)<br />
 Database - [MySQL](https://www.mysql.com/)<br />
 
 
