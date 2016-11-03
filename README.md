@@ -41,6 +41,25 @@ Install app dependencies:
 ```
 perl Makefile.PL
 ```
+The command will show you your dependencies versions
+This template is tested with dependencies listed below:
+```
+*** Checking for Perl dependencies...
+[Core Features]
+- Test::More                            ...loaded. (1.302062 >= 0.88)
+- Catalyst::Runtime                     ...loaded. (5.90112 >= 5.90112)
+- Catalyst::Plugin::ConfigLoader        ...loaded. (0.34)
+- Catalyst::Plugin::Static::Simple      ...loaded. (0.33)
+- Catalyst::Action::RenderView          ...loaded. (0.16)
+- Catalyst::Helper::View::TT            ...loaded. (0.44)
+- DBD::mysql                            ...loaded. (4.038)
+- DBIx::Class::Schema::Loader           ...loaded. (0.07046)
+- Catalyst::Helper::Model::DBIC::Schema ...loaded. (0.65)
+- Catalyst::Plugin::StackTrace          ...loaded. (0.12)
+- Moose                                 ...loaded. (2.1806)
+- namespace::autoclean                  ...loaded. (0.28)
+- Config::General                       ...loaded. (2.63)
+```
 
 Run example:
 ```
