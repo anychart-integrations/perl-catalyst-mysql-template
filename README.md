@@ -41,8 +41,7 @@ Install app dependencies:
 ```
 perl Makefile.PL
 ```
-The command will show you your dependencies versions
-This template is tested with dependencies listed below:
+The command will show you your dependencies versions. This template is tested with dependencies listed below:
 ```
 *** Checking for Perl dependencies...
 [Core Features]
