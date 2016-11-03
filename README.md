@@ -80,11 +80,11 @@ perl-catalyst-mysql-template/
         perlcatalystmysqltemplate_fastcgi.pl
         perlcatalystmysqltemplate_server.pl
         perlcatalystmysqltemplate_test.pl
-    t/
+    t/                                          # folder for tests
     Changes
-    database_backup.sql         # MySQL database dump
+    database_backup.sql                         # MySQL database dump
     LICENSE
-    Makefile.PL
+    Makefile.PL                                 # project makefile
     perlcatalystmysqltemplate.conf
     perlcatalystmysqltemplate.psgi
     README.md
