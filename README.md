@@ -6,8 +6,8 @@ This example shows how to use Anychart library with the Perl programming languag
 
 ## Running
 
-To use this sample you must have Perl, Cpan and Catalyst installed (if not please visit [quick install guide](http://www.catalystframework.org/),
-MySQL installed and running (if not please check out [MySQL download page](https://dev.mysql.com/downloads/installer/) and follow [instructions](http://dev.mysql.com/doc/refman/5.7/en/installing.html))
+To use this sample you must have Perl, Cpan and Catalyst installed, if not, please, visit [Catalyst installation guide](http://wiki.catalystframework.org/wiki/installingcatalyst);
+MySQL installed and running, if not please check out [MySQL download page](https://dev.mysql.com/downloads/installer/) and follow [instructions](http://dev.mysql.com/doc/refman/5.7/en/installing.html).
 
 To check your installations, run the following command in the command line:
 ```
