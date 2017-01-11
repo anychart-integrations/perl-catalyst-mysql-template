@@ -37,7 +37,15 @@ Set up MySQL database, use -u -p flags to provide username and password:
 $  mysql < database_backup.sql
 ```
 
-Install app dependencies:
+Install app dependencies, you can use cpanfile or Makefile.PL.
+
+To use cpanfile, assuming you have [cpanminus](http://search.cpan.org/~miyagawa/App-cpanminus-1.7042/lib/App/cpanminus.pm) installed on your system, run:
+```
+ cpanm --installdeps .
+```
+
+To use Makefile.PL run:
+
 ```
 perl Makefile.PL
 ```
@@ -103,6 +111,7 @@ perl-catalyst-mysql-template/
     database_backup.sql                         # MySQL database dump
     LICENSE
     Makefile.PL                                 # project makefile
+	cpanfile									# settings for cpanm
     perlcatalystmysqltemplate.conf
     perlcatalystmysqltemplate.psgi
     README.md
